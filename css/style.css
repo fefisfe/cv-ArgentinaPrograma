@@ -1,0 +1,275 @@
+
+body{
+    background-color: #1a1a1b;
+  }
+  
+header{
+    align-items: center;
+    background-color: black;
+    color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    min-height: 20vh;
+  }
+  
+.titulo{
+    color: darkgrey;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 30px;
+    margin: 30px;
+    text-align: center;
+}
+
+.titulo:hover{
+    color: #c78c19;
+}
+  
+.icono-whatsapp{
+    bottom: 1.8vh;
+    right: 2.8vh;
+    width: 7.5vh;
+}
+  
+.icono-facebook{
+    position: static left;
+    width: 7.5vh;
+}
+  
+.icono-instagram{
+    position: static left;
+    width: 7.5vh;
+}
+  
+.divflex{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+a:hover{
+    color: #c78c19;
+}
+
+#habilidades{
+    color: darkgrey;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 20px;
+    padding: 15px;
+}
+
+  
+.foto-cv{
+    border-radius: 40%;
+    display: block;
+    margin-left: left;
+    margin-right: auto;
+    width: 20%;
+}
+  
+aside{
+    background: #141616;
+    box-sizing: border-box;
+    flex-direction: row;
+    float: left;
+    padding: 20px;
+    width: 30%;
+}
+  
+iframe{
+    margin-left: 100px;
+    padding: 200;
+    text-align: center;
+}
+  
+  
+#subtitulo{
+    color: darkgrey;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 15px;
+    margin: 10px;
+    text-align: center;
+    padding: 25px;
+}
+  
+#subtitulo:hover{
+    color: #c78c19;
+}
+  
+#hability{
+    color: darkgrey;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 18px;
+}
+
+#about{
+    color: darkgrey;
+    font-family: 'Tilt Neon', cursive;
+    font-size: 11px;
+    text-align: left;
+}
+  
+.card{
+    background-color: #969696;
+}
+
+footer{
+    align-items: center;
+    background-color: black;
+    color: #FFFFFF;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 100px;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 10px;
+}
+  
+.mapa{
+    width: 110px;
+    height: 110px;
+}
+
+  
+h3{
+    font-size: 13px;
+}
+  
+  /*Responsive*/
+  
+  @media (max-width:767px){
+  
+    body{
+      background: #999999;
+    }
+  
+    .titulo{
+      font-size: 2em;
+      margin: 2em;
+    }
+  
+    .flexitem{
+        font-size: 1em;
+        margin: 10px;
+    }
+  
+    .divflex{
+      flex-direction: column;
+    }
+  
+    #subtitulo{
+      font-size: 1.5em;
+      padding: 10px;
+    }
+  
+    .img-1{
+       text-align: center;
+       height: 47.4vh;
+       padding: 52px;
+       width: 47.4vh;
+    }
+  
+    .img-2{
+       display: none;
+    }
+  
+    .img-3{
+       display: none;
+    }
+  
+    .img-4{
+       display: none;
+    }
+  
+    .aside{
+       box-sizing: content-box;
+       float: none;
+    }
+  
+    #subtitulo1{
+      font-size: 2em;
+    }
+  
+    iframe{
+      margin-left: 30px;
+      padding: 30%;
+      text-align: center;
+    }
+    #subtitulo3{
+      font-size: 1em;
+    }
+  
+  }
+  
+  @media (max-width:991px) {
+  
+    body{
+      background: #333333;
+    }
+  
+    .banner{
+      height: 10vh;
+      margin: 4vh;
+      width: 10vh;
+    }
+  
+    .titulo{
+      font-size: 2em;
+      margin: 2em;
+    }
+  
+    .flexitem{
+        font-size: 2em;
+        margin: 10px;
+    }
+  
+    .divflex{
+      flex-direction: column;
+    }
+  
+    #subtitulo{
+      font-size: 3em;
+      padding: 10px;
+    }
+  
+    .img-1{
+       display: flex;
+       flex-direction: row;
+       text-align: center;
+       height: 47.4vh;
+       padding: 52px;
+       width: 47.4vh;
+    }
+  
+    .img-2{
+       display: flex;
+       flex-direction: row;
+       text-align: center;
+       height: 47.4vh;
+       padding: 52px;
+       width: 47.4vh;
+    }
+  
+    .img-3{
+       display: none;
+    }
+  
+    .img-4{
+       display: none;
+    }
+  
+    aside{
+       box-sizing: content-box;
+       float: none;
+       padding: 80px;
+       width: 80%;
+    }
+  
+    #subtitulo1{
+      font-size: 2em;
+    }
+  
+    #subtitulo3{
+      font-size: 1em;
+    }
+  
